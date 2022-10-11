@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-	@GetMapping("/greet/{name}")
-	public String greeting(@PathVariable String name) {
-		return "Hi!!  " + name;
+	@GetMapping("/")
+	public String Message() {
+		return "<h1>Setting Up Jenkins Pipeline To Deploy DockerSwarm is done successfully</h1>";
 	}
 
 }
